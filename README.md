@@ -42,7 +42,6 @@ d.Gạch đầu dòng:
 
 ` <img src="link_anh_cua_ban"> `
 4.Bang:
-</style>
 <table class="tg">
   <tr>
     <th class="tg-baqh">Hàng 1</th>
