@@ -41,7 +41,7 @@ d.Gạch đầu dòng:
 -Chèn hình ảnh:
 
 ` <img src="link_anh_cua_ban"> `
-4.Bang:
+<li>4.Bang:
 <table class="tg">
   <tr>
     <th class="tg-baqh">Hàng 1</th>
