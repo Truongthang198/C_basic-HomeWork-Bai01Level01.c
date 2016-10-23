@@ -1,111 +1,95 @@
-# C_basic-HomeWork-Bai01Level01.c
-BT01:
-    #include <stdio.h>
-    #include <math.h>
-    #define Pi 3.14
-    void main ()
-    {
-    float R;
-    printf("Moi ban nhap vao R:");
-    scanf("%f",&R);
-    float C=2*R*Pi;
-    printf("Chu vi hinh tron =%.2f\n",C);
-    float S=R*R*Pi;
-    printf("Dien tich hinh tron la =%.2f\n",S);
-    getch();
-    return 0;
-    }
-BT02:
-    #include <stdio.h>
-    #include <math.h>
-    void main ()
-    {
-    float a,b,c,p,S;
-    printf("Nhap 3 canh cua tam giac:\n");
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%f",&c);
-    p=(a+b+c);
-    printf("Chu vi tam giac %f\n",p);
-    p=p/2;
-    printf("Dien tich tam giac %f\n",S);
-    S=sqrt(p*(p-a)*(p-b)*(p-c));
-    getch();
-    return 0;
-    }
-BT03:
-   #include <stdio.h>
-   #include <math.h>
-   void main ()
-   {
-    float a,b,c,d,C,S;
-    printf("Nhap do dai canh hinh vuong:\n");
-    scanf("%f",&a);
-    C=4*a;
-    printf("Chu vi hinh vuong %f\n",C);
-    S=a*a;
-    printf("Dien tich hinh vuong %f\n",S);
-    getch();
-    return 0;
-    }
-BT04:
-    #include <stdio.h>
-    #include <math.h>
-    void main ()
-    {
-    float a,b,C,S;
-    printf("Nhap chieu dai a, chieu rong b:\n");
-    scanf("%f",&a);
-    scanf("%f",&b);
-    C=(a+b)*2;
-    printf("Chu vi hinh chu nhat %f\n",C);
-    S=a*b;
-    printf("Dien tich hinh chu nhat %f\n",S);
-    getch();
-    return 0;
-    }
-BT05:
-    #include <stdio.h>
-    #include <math.h>
-    void main ()
-    {
-    float a,b,h,S;
-    printf("Nhap cac gia tri:\n");
-    scanf("%f",&a);
-    scanf("%f",&b);
-    scanf("%f",&h);
-    S=h*((a+b)/2);
-    printf("Dien tich hinh thang %f\n",S);
-    getch();
-    return 0;
-    }
-BT06:
-    #include <stdio.h>
-    #include <math.h>
-    #define Pi 3.14
-    void main ()
-    {
-    float h,r,V;
-    printf("Nhap cac gia tri:\n");
-    scanf("%f",&h);
-    scanf("%f",&r);
-    V=h*Pi*r*r;
-    printf("The tich hinh tru %f\n",V);
-    getch();
-    return 0;
-    }
-BT07:
-    #include <stdio.h>
-    void main ()
-     {
-    int ngay,thang,nam;
-    printf("Nhap ngay: \n");
-    scanf("%d",&ngay);
-    printf("Nhap thang: \n");
-    scanf("%d",&thang);
-    printf("Nhap nam: \n");
-    scanf("%d",&nam);
-    printf("ngay %d thang %d nam %d",ngay,thang,nam);
-    getch();
-    return 0;
-    }
+Bien tap vien : Truong Duc Thang
+<ul> <li>Ngay soan : 23/10/2016</li>
+I.Markdown Là Gì:
+<ul> <li>Markdown là ngôn ngữ đánh dấu văn bản được tạo ra bởi John Gruber. Markdown sử dụng cú pháp khá đơn giản và dễ hiểu để đánh dấu văn bản và văn bản được viết bằng Markdown sẽ có thể được chuyển đổi sang HTML. Ngược lại các văn bản được viết bằng HTML cũng có thể được chuyển đổi sang Markdown.</li>
+<ul> <li>1.Tác dụng mark down :</li>
+<li>Sự phổ biến của HTML khiến ngôn ngữ đánh dấu này được sử dụng rộng rãi trong các ứng dụng sử dụng internet từ các trang web tới nội dung email hay rất nhiều các tài liệu hướng dẫn online cũng đều sử dụng ngôn ngữ này. Tuy nhiên một vấn đề gặp phải của HML đó là cú pháp của ngôn ngữ này không được thân thiện lắm với người dùng.<ul> <li>
+<ul> <li>2.Một số Cú Pháp Cơ Bản</li>
+a.Tạo Tiêu Đề
+<li>Các lớp tiêu đề h1,h2,h3 cho đến h6 có thể viết được bằng cách thêm số lượng ký tự # tương ứng vào đầu dòng. Một ký tự # tương đương với h1, 2 ký tự # tương đương với h2 ... Tuy vậy để viết một bài viết dễ đọc thì hiếm khi cần dùng đến quá 3 ký tự này.
+Tiêu đề 1 (h1)
+Tiêu đề 2 (h2)
+Tiêu đề 3 (h3)<ul> <li>
+b.In đậm,in nghiêng:
+<li>Kẹp một từ ở đầu và cuối bằng 1 ký tự * để in nghiêng, 2 ký tự ** để bôi đậm, và 3 ký tự *** để vừa in nghiêng vừa bôi đậm.
+Chữ in đậm và chữ in nghiêng<ul> <li>
+c.gạch ngang:<ul> <li>
+<li>dùng ~~
+gạch ngang<ul> <li>
+d.Gạch đầu dòng:
+~~~
+- Gạch đầu dòng thứ nhất
+<ul>
+<li>Thụt với đầu dòng 1</li>
+<li>Thụt với đầu dòng 1</li>
+</ul>
+- Gạch đầu dòng thứ hai
+<ul>
+<li>Thụt với đầu dòng 2</li>
+<li>Thụt với đầu dòng 2</li>
+</ul>
+~~~
+~~~
+3. Chèn link, chèn hình ảnh:
+
+-Chèn link:
+
+*Cách 1: ` http://github.com `
+
+*Cách 2: ` [Github](http:/github.com) `
+
+-Chèn hình ảnh:
+
+` <img src="link_anh_cua_ban"> `
+4.Bang:
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-baqh">Hàng 1</th>
+    <th class="tg-yw4l">cột 1</th>
+    <th class="tg-yw4l">cột 2</th>
+    <th class="tg-yw4l">cột 3</th>
+    <th class="tg-yw4l">cột 4</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Hàng 2</td>
+    <td class="tg-yw4l">2 x 1</td>
+    <td class="tg-yw4l">2 x 2</td>
+    <td class="tg-yw4l">2 x 3</td>
+    <td class="tg-yw4l">2 x 4</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Hàng 3</td>
+    <td class="tg-yw4l">3 x 1</td>
+    <td class="tg-yw4l">3 x 2</td>
+    <td class="tg-yw4l">3 x 3</td>
+    <td class="tg-yw4l">3 x 4</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Hàng 4</td>
+    <td class="tg-yw4l">4 x 1</td>
+    <td class="tg-yw4l">4 x 2</td>
+    <td class="tg-yw4l">4 x 3</td>
+    <td class="tg-yw4l">4 x 4</td>
+  </tr>
+</table>
+5. Tạo liên kết
+
+Có thể chèn Link trực tiếp
+http://www.pcworld.com.vn/
+hoặc đặt trong cặp dấu ngoặc <http://www.pcworld.com.vn/>
+hoặc ![Tên link](đường dẫn) (<a>)
+![Tên link với chú thích](đường dẫn "chú thích") (<a name="chú thích">)
+6. Cài đặt Sublime Text và tìm kiếm, cài đặt các công cụ hỗ trợ Markdown (export HTML, markdown preview,...):
+a. Cài đặt Sublime Text:
+Truy cập vào: `http://www.sublimetextcom/3` để tải file về cài đặt theo giao diện. Ở đây có:
+- OS X
+- Windows 64 bit
+- Ubuntu 64 bit
+- Ubuntu 32 bit
++ 
+b. Các công cụ hỗ trợ Sublime Text : notepad, notepad ++, stackedit,...
++ 
+c. Các công cụ hỗ trợ Markdown : export HTML, markdown preview,...
+                                                 <ul>
+                                         <li>------ Het-----------
